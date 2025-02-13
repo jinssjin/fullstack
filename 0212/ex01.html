@@ -47,23 +47,30 @@ section{height: 600px;
 background-color: aqua;
 margin-top: 20px;}
 
-.left_T{width: 350px;
+.left_box{float: left;
+            background-color: darkgreen;
+            width: 800px;
+            height: 550px;
+            margin-top: 25px;
+            margin-left: 20px;}
+.right_box
+.left_1{width: 350px;
         height: 500px;
         float: left;
         background-color: chocolate;
         margin-top: 25px;
         margin-left: 25px;}
 
-.left_B{width: 350px;
+.left_2{width: 350px;
         height: 500px;
-        float: left;
+        float: right;
         background-color: chocolate;
         margin-top: 25px;
         margin-left: 25px;}
 
 .right_1{width: 350px;
         height: 210px;
-        float: left;
+        float: right;
         background-color: chocolate;
         margin-top: 25px;
         margin-left: 25px;}
@@ -88,10 +95,14 @@ margin-top: 20px;}
         </header>
 
         <section>
-            <div class="left_T"></div>
-            <div class="left_B"></div>
-            <div class="right_1"></div>
-            <div class="right_2"></div>
+            <article class="left_box">
+                <div class="left_1"></div>
+                <div class="left_2"></div>
+            </article>
+            <article class="right_box">
+                <div class="right_1"></div>
+                <div class="right_2"></div>
+            </article>
         </section>
 
         <footer>
