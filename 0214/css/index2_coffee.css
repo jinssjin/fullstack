@@ -24,7 +24,7 @@ section{width: 650px; height: 560px;background-color: rgb(204 204 204); float: l
 section h3{width: 650px; text-align: center; padding-top: 20px;}
 
 section article{width: 270px; height: 200px; background-color: rgb(255 252 234);float: left;
-border: 1px solid black; margin: 30px 0 0 10px;
+border: 1px solid black; margin: 30px 0 0 30px;
 padding: 10px 0 0 10px;}
 
 section article h4{ padding-left: 30px;
